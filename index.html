@@ -10,17 +10,19 @@
 <body>
     <header>Rock Paper Scissor</header>
     <div class="container">
-        <p class="description"> play your move</p>
-        <div class="current-move"></div>
+        <p class="description"> Select your move</p>
+        <div class="current-move"> ROCK </div>
         <div class="move-list">
-            <div class="moves rock"></div>
-            <div class="moves Paper"></div>
-            <div class="moves Scissor"></div>
+            <div class="moves rock"><img src="./img/rock.png" alt="Rock"></div>
+            <div class="moves Paper"><img src="./img/paper.png" alt="Paper"></div>
+            <div class="moves Scissor"><img src="./img/scissor.png" alt="scissor"></div>
         </div>
-        <p class="moves-played">robot played<span class="robot-move"></span></p>
+        <p class="moves-played">Robot Chose <span class="robot-move">&nabla;</span></p>
+        <p class="status">No Moves Played</p>
         <div class="score-container">
             <div class="score">
                 <ul class="p-move">
+                    <li class="player">PLAYER</li>
                     <li class="s1 player"></li>
                     <li class="s2 player"></li>
                     <li class="s3 player"></li>
@@ -29,6 +31,7 @@
                     <li class="total player">0</li>
                 </ul>
                 <ul class="r-move">
+                    <li class="player">ROBOT &nbsp;</li>
                     <li class="s1 robot"></li>
                     <li class="s2 robot"></li>
                     <li class="s3 robot"></li>
