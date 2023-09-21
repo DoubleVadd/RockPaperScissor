@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperScissors</title>
-    <link rel="stylesheet" href="">
-    <script src="logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="logic.js"></script> -->
 </head>
 <body>
-    
+    <header>Rock Paper Scissor</header>
+    <div class="container">
+        <p class="description"> play your move</p>
+        <div class="current-move"></div>
+        <div class="move-list">
+            <div class="moves rock"></div>
+            <div class="moves Paper"></div>
+            <div class="moves Scissor"></div>
+        </div>
+        <p class="moves-played">robot played<span class="robot-move"></span></p>
+        <div class="score-container">
+            <div class="score">
+                <ul class="p-move">
+                    <li class="s1 player"></li>
+                    <li class="s2 player"></li>
+                    <li class="s3 player"></li>
+                    <li class="s4 player"></li>
+                    <li class="s5 player"></li>
+                    <li class="total player">0</li>
+                </ul>
+                <ul class="r-move">
+                    <li class="s1 robot"></li>
+                    <li class="s2 robot"></li>
+                    <li class="s3 robot"></li>
+                    <li class="s4 robot"></li>
+                    <li class="s5 robot"></li>
+                    <li class="total robot">0</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <button href="" class="reset">Play Again</button>
+    </footer>
 </body>
 </html>
