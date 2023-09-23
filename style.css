@@ -98,7 +98,7 @@ img:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
+    margin: 0.2rem 0;
     height: 5rem;
     /* background-color: red; */
     width: 60rem;
@@ -117,7 +117,7 @@ img:active {
 
 .s1,.s2,.s3,.s4,.s5{
     height: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     /* border: 7px solid black; */
 }
 
