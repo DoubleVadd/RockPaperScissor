@@ -138,7 +138,7 @@ function playRound(getHumanChoice, getComputerChoice){
         return;
     }
     // human win condition
-    if((getComputerChoice === 1 && getHumanChoice === 0) || (getComputerChoice === 2 && getHumanChoice === 1)){
+    if((getComputerChoice === 1 && getHumanChoice === 0) || (getComputerChoice === 2 && getHumanChoice === 1) || (getComputerChoice === 0 && getHumanChoice === 2)){
         console.log("That's tough, you loose");
         console.log(`you played ${translator(getHumanChoice)}`);
         console.log(`Robot played ${translator(getComputerChoice)}`);
